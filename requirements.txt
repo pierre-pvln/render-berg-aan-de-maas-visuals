@@ -1,0 +1,33 @@
+# =============================================================================
+#
+# @package    VDH_bouwdok_Berg_aan_de_Maas
+#             for van den Herik on render 
+# 
+# @version    v0.0.4  2022-12-10
+# @author     pierre@ipheion.eu
+# @copyright  (C) 2022-2022 Pierre Veelen
+#
+# =============================================================================
+
+# GENERIC DATA WRANGLING
+pandas==1.2.5
+# 2021-03-12 xlrd added, but does not work with xlsx files
+#            thus use openpyxl
+openpyxl==3.0.7
+
+# GEO DATA WRANGLING
+shapely==1.8.2
+
+# DATA VISUALISATION
+plotly==5.7.0
+dash==2.3.1
+dash-bootstrap-components==1.1.0
+dash-daq==0.5.0
+
+# WEB DATA
+urllib3==1.26.9
+certifi
+
+# PLATFORM SPECIFIC 
+gunicorn==20.1.0
+
